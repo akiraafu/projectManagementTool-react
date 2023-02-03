@@ -8,7 +8,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <nav className="navbar">
       <ul>
         <li className="logo">
           <img src={Temple} alt="logo" />
@@ -24,7 +24,7 @@ const Navbar = () => {
           <button className="btn">Logout</button>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
