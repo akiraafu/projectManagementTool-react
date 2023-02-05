@@ -6,8 +6,6 @@ import { useAuthContext } from "../hooks/useAuthContext";
 import "./navbar.css";
 import Temple from "../assets/temple.svg";
 
-import React from "react";
-
 const Navbar = () => {
   const { logout, isPending } = useLogout();
   const { user } = useAuthContext();
@@ -21,7 +19,6 @@ const Navbar = () => {
         </li>
         {!user && (
           <>
-            {" "}
             <li>
               <Link to="/login">Login</Link>
             </li>
