@@ -105,7 +105,7 @@ const Create = () => {
             required
             onChange={(e) => setDetails(e.target.value)}
             value={details}
-          />
+          ></textarea>
         </label>
         <label>
           <span>Set due date:</span>
