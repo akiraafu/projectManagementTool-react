@@ -70,15 +70,17 @@ const Create = () => {
         id: u.value.id,
       };
     });
+
     const project = {
       name,
       details,
-      dueDate: timestamp.fromDate(new Date(dueDate)),
-      category: category.value,
-      comments: [],
-      createdBy,
       assignedUsersList,
+      createdBy,
+      category: category.value,
+      dueDate: timestamp.fromDate(new Date(dueDate)),
+      comments: [],
     };
+
     await addDocument(project);
     if (!response.error) {
       history.push("/");
