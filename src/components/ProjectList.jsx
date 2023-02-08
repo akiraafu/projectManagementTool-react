@@ -16,7 +16,6 @@ const ProjectList = ({ projects }) => {
               {project.assignedUsersList.map((user) => (
                 <li key={user.photoURL}>
                   <Avatar src={user.photoURL} />
-                  <p>{user.displayName}</p>
                 </li>
               ))}
             </ul>
