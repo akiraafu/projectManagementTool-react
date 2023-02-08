@@ -10,15 +10,16 @@ Users should be able to:
 - See the list of projects after successfully login, signup or adding a new project
 - Filter projects by category
 - Leave comments on the project detail page
-- delete the project if they own it
+- Delete the project if they own it
 - Projects are protected from the backend, so only the author can read and write the project
 - Feel free to use demo accounts to play around:
-  emails:
-  cat@cat.com
-  dog@dog.com
-  rat@rat.com
-  sheep@sheep.com
-  green@green.com
+
+  emails:  
+  cat@cat.com  
+  dog@dog.com  
+  rat@rat.com  
+  sheep@sheep.com  
+  green@green.com  
   fish@fish.com
 
   password(all the same): 123456
