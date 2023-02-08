@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://projectmanagementsite-d8a50.web.app/login]
+- Live Site URL: [https://projectmanagementsite-d8a50.web.app/]
 
 ### Built with
 
