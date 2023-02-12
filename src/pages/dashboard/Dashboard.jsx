@@ -42,7 +42,7 @@ const Dashboard = () => {
   return (
     <div>
       <h2 className="page-title">Dashboard</h2>
-      {error & <p className="error">{error}</p>}
+      {error && <p className="error">{error}</p>}
       {documents && (
         <ProjectFilter
           currentFilter={currentFilter}
